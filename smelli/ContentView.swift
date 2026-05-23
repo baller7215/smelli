@@ -14,6 +14,12 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            Text("Hi, there")
+            Label("Leo", systemImage: /*@START_MENU_TOKEN@*/"42.circle"/*@END_MENU_TOKEN@*/)
+            Link("View Our Terms of Service",
+                  destination: URL(string: "https://www.example.com/TOS.html")!)
+                .padding(10)
+                .background(Color.black.opacity(0.1), in: RoundedRectangle(cornerRadius: 8))
         }
         .padding()
     }

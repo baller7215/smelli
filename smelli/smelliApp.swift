@@ -11,7 +11,7 @@ import SwiftUI
 struct smelliApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TutorialHomeView()
         }
     }
 }
